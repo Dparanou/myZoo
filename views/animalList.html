@@ -1,0 +1,9 @@
+<div >
+  <ul>
+    <li ng-repeat="animal in animalList | orderBy: 'name'" ng-click="selectedAnimal(x)">
+    <a href="#/{{animal.name}}"> {{animal.name}} </a>
+    </li>
+  </ul>
+
+  <animal-presentation></animal-presentation>
+</div>
