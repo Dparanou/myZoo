@@ -1,0 +1,18 @@
+img {
+  margin-left:  450px;
+  position: relative;
+  top: 0;
+  width: 450px;
+}
+
+h1{
+  font-family: 'Akronim';
+  font-size: 100px;
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  list-style-type:none;
+  padding: 5px;
+}
